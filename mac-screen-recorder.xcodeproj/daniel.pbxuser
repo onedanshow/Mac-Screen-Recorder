@@ -1,0 +1,553 @@
+// !$*UTF8*$!
+{
+	08FB7793FE84155DC02AAC07 /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeExecutable = 65D02E2D1152D623003A35C3 /* mac-screen-recorder */;
+		activeTarget = 8DD76FA90486AB0100D96B5E /* mac-screen-recorder */;
+		addToTargets = (
+			8DD76FA90486AB0100D96B5E /* mac-screen-recorder */,
+		);
+		breakpoints = (
+		);
+		codeSenseManager = 65D02E321152D642003A35C3 /* Code sense */;
+		executables = (
+			65D02E2D1152D623003A35C3 /* mac-screen-recorder */,
+		);
+		perUserDictionary = {
+			"PBXConfiguration.PBXBreakpointsDataSource.v1:1CA1AED706398EBD00589147" = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXBreakpointsDataSource_BreakpointID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					20,
+					198,
+					20,
+					99,
+					99,
+					29,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXBreakpointsDataSource_ActionID,
+					PBXBreakpointsDataSource_TypeID,
+					PBXBreakpointsDataSource_BreakpointID,
+					PBXBreakpointsDataSource_UseID,
+					PBXBreakpointsDataSource_LocationID,
+					PBXBreakpointsDataSource_ConditionID,
+					PBXBreakpointsDataSource_IgnoreCountID,
+					PBXBreakpointsDataSource_ContinueID,
+				);
+			};
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					972,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXConfiguration.PBXTargetDataSource.PBXTargetDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					931,
+					60,
+					20,
+					48,
+					43,
+					43,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXTargetDataSource_PrimaryAttribute,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 290960549;
+			PBXWorkspaceStateSaveDate = 290960549;
+		};
+		perUserProjectItems = {
+			659F4785115583E80060F065 /* PBXTextBookmark */ = 659F4785115583E80060F065 /* PBXTextBookmark */;
+			659F482E11558EBC0060F065 /* PBXTextBookmark */ = 659F482E11558EBC0060F065 /* PBXTextBookmark */;
+			659F482F11558EBC0060F065 /* PBXTextBookmark */ = 659F482F11558EBC0060F065 /* PBXTextBookmark */;
+			659F4856115599780060F065 /* PBXTextBookmark */ = 659F4856115599780060F065 /* PBXTextBookmark */;
+			659F4858115599780060F065 /* PBXTextBookmark */ = 659F4858115599780060F065 /* PBXTextBookmark */;
+			659F485A115599780060F065 /* PBXTextBookmark */ = 659F485A115599780060F065 /* PBXTextBookmark */;
+			65C6A59F1157C12B00721D7D /* PBXTextBookmark */ = 65C6A59F1157C12B00721D7D /* PBXTextBookmark */;
+			65C6A5B41157C27200721D7D /* PBXTextBookmark */ = 65C6A5B41157C27200721D7D /* PBXTextBookmark */;
+			65C6A5B51157C27200721D7D /* PBXTextBookmark */ = 65C6A5B51157C27200721D7D /* PBXTextBookmark */;
+			65C6A5C01157C2F800721D7D /* PBXBookmark */ = 65C6A5C01157C2F800721D7D /* PBXBookmark */;
+			65C6A5DC1157C47300721D7D /* PBXTextBookmark */ = 65C6A5DC1157C47300721D7D /* PBXTextBookmark */;
+			65C6A5E21157C48600721D7D /* PBXTextBookmark */ = 65C6A5E21157C48600721D7D /* PBXTextBookmark */;
+			65C6A5E31157C48600721D7D /* PBXTextBookmark */ = 65C6A5E31157C48600721D7D /* PBXTextBookmark */;
+			65C6A5E61157C6CD00721D7D /* PBXTextBookmark */ = 65C6A5E61157C6CD00721D7D /* PBXTextBookmark */;
+			65C6A5E71157C6CD00721D7D /* PBXTextBookmark */ = 65C6A5E71157C6CD00721D7D /* PBXTextBookmark */;
+			65D00CDD1153CD8C006B9B9D /* PBXTextBookmark */ = 65D00CDD1153CD8C006B9B9D /* PBXTextBookmark */;
+			65D00CF31153CED0006B9B9D /* PBXTextBookmark */ = 65D00CF31153CED0006B9B9D /* PBXTextBookmark */;
+			65D00EDB11540BBA006B9B9D /* PBXTextBookmark */ = 65D00EDB11540BBA006B9B9D /* PBXTextBookmark */;
+			65D01077115422CB006B9B9D /* PBXTextBookmark */ = 65D01077115422CB006B9B9D /* PBXTextBookmark */;
+			65D010F8115519DB006B9B9D /* PBXTextBookmark */ = 65D010F8115519DB006B9B9D /* PBXTextBookmark */;
+			65D010FB115519DB006B9B9D /* PBXTextBookmark */ = 65D010FB115519DB006B9B9D /* PBXTextBookmark */;
+			65D02E561152D739003A35C3 /* PBXTextBookmark */ = 65D02E561152D739003A35C3 /* PBXTextBookmark */;
+			65D02EA91152DD91003A35C3 /* PBXTextBookmark */ = 65D02EA91152DD91003A35C3 /* PBXTextBookmark */;
+		};
+		sourceControlManager = 65D02E311152D642003A35C3 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	08FB7796FE84155DC02AAC07 /* main.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1150, 3822}}";
+			sepNavSelRange = "{780, 0}";
+			sepNavVisRange = "{0, 1383}";
+			sepNavWindowFrame = "{{15, 37}, {1288, 836}}";
+		};
+	};
+	659F47651155794E0060F065 /* Console.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1150, 689}}";
+			sepNavSelRange = "{229, 0}";
+			sepNavVisRange = "{0, 371}";
+		};
+	};
+	659F47661155794E0060F065 /* Console.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {728, 1196}}";
+			sepNavSelRange = "{336, 0}";
+			sepNavVisRange = "{883, 342}";
+			sepNavWindowFrame = "{{38, 16}, {1288, 836}}";
+		};
+	};
+	659F4785115583E80060F065 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 65D01100115519DB006B9B9D /* QTCaptureSession.h */;
+		name = "QTCaptureSession.h: 20";
+		rLen = 0;
+		rLoc = 591;
+		rType = 0;
+		vrLen = 1345;
+		vrLoc = 0;
+	};
+	659F478E115583E80060F065 /* DanielCommandLineTesterAppDelegate.m */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.objc;
+		name = DanielCommandLineTesterAppDelegate.m;
+		path = /Users/daniel/Downloads/DanielCommandLineTester/DanielCommandLineTesterAppDelegate.m;
+		sourceTree = "<absolute>";
+	};
+	659F482E11558EBC0060F065 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 659F478E115583E80060F065 /* DanielCommandLineTesterAppDelegate.m */;
+		name = "DanielCommandLineTesterAppDelegate.m: 37";
+		rLen = 813;
+		rLoc = 950;
+		rType = 0;
+		vrLen = 1492;
+		vrLoc = 277;
+	};
+	659F482F11558EBC0060F065 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 659F483011558EBC0060F065 /* NSFileHandle.h */;
+		name = "NSFileHandle.h: 64";
+		rLen = 46;
+		rLoc = 2141;
+		rType = 0;
+		vrLen = 2110;
+		vrLoc = 629;
+	};
+	659F483011558EBC0060F065 /* NSFileHandle.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = NSFileHandle.h;
+		path = /Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Foundation.framework/Versions/C/Headers/NSFileHandle.h;
+		sourceTree = "<absolute>";
+	};
+	659F4856115599780060F065 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 659F4857115599780060F065 /* chain.c */;
+		name = "chain.c: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 2047;
+		vrLoc = 0;
+	};
+	659F4857115599780060F065 /* chain.c */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.c;
+		name = chain.c;
+		path = /Users/daniel/Desktop/ScreenRecording/vlc/src/config/chain.c;
+		sourceTree = "<absolute>";
+	};
+	659F4858115599780060F065 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 659F4859115599780060F065 /* core.c */;
+		name = "core.c: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 1947;
+		vrLoc = 9017;
+	};
+	659F4859115599780060F065 /* core.c */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.c;
+		name = core.c;
+		path = /Users/daniel/Desktop/ScreenRecording/vlc/src/config/core.c;
+		sourceTree = "<absolute>";
+	};
+	659F485A115599780060F065 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 659F485B115599780060F065 /* cmdline.c */;
+		name = "cmdline.c: 58";
+		rLen = 18;
+		rLoc = 2182;
+		rType = 0;
+		vrLen = 2178;
+		vrLoc = 0;
+	};
+	659F485B115599780060F065 /* cmdline.c */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.c;
+		name = cmdline.c;
+		path = /Users/daniel/Desktop/ScreenRecording/vlc/src/config/cmdline.c;
+		sourceTree = "<absolute>";
+	};
+	65C6A59F1157C12B00721D7D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 65D00C831153BE1D006B9B9D /* ScreenRecorder.h */;
+		name = "ScreenRecorder.h: 7";
+		rLen = 0;
+		rLoc = 146;
+		rType = 0;
+		vrLen = 613;
+		vrLoc = 0;
+	};
+	65C6A5B41157C27200721D7D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 65D00EE511540F1E006B9B9D /* movie-capture.m */;
+		name = "movie-capture.m: 147";
+		rLen = 23;
+		rLoc = 4624;
+		rType = 0;
+		vrLen = 1058;
+		vrLoc = 4014;
+	};
+	65C6A5B51157C27200721D7D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 65D00C841153BE1D006B9B9D /* ScreenRecorder.m */;
+		name = "ScreenRecorder.m: 121";
+		rLen = 0;
+		rLoc = 3640;
+		rType = 0;
+		vrLen = 1829;
+		vrLoc = 3529;
+	};
+	65C6A5C01157C2F800721D7D /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 65D00EE511540F1E006B9B9D /* movie-capture.m */;
+	};
+	65C6A5DC1157C47300721D7D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 659F47651155794E0060F065 /* Console.h */;
+		name = "Console.h: 11";
+		rLen = 0;
+		rLoc = 229;
+		rType = 0;
+		vrLen = 371;
+		vrLoc = 0;
+	};
+	65C6A5E21157C48600721D7D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 659F47661155794E0060F065 /* Console.m */;
+		name = "Console.m: 89";
+		rLen = 77;
+		rLoc = 2203;
+		rType = 0;
+		vrLen = 1289;
+		vrLoc = 1040;
+	};
+	65C6A5E31157C48600721D7D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 08FB7796FE84155DC02AAC07 /* main.m */;
+		name = "main.m: 25";
+		rLen = 0;
+		rLoc = 764;
+		rType = 0;
+		vrLen = 1328;
+		vrLoc = 0;
+	};
+	65C6A5E61157C6CD00721D7D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 08FB7796FE84155DC02AAC07 /* main.m */;
+		name = "main.m: 27";
+		rLen = 0;
+		rLoc = 780;
+		rType = 0;
+		vrLen = 1383;
+		vrLoc = 0;
+	};
+	65C6A5E71157C6CD00721D7D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 65C6A5E81157C6CD00721D7D /* movie-capture.m */;
+		name = "movie-capture.m: 147";
+		rLen = 23;
+		rLoc = 4624;
+		rType = 0;
+		vrLen = 1121;
+		vrLoc = 3951;
+	};
+	65C6A5E81157C6CD00721D7D /* movie-capture.m */ = {
+		isa = PBXFileReference;
+		name = "movie-capture.m";
+		path = "/Users/daniel/Desktop/ScreenRecording/movie-capture/movie-capture.m";
+		sourceTree = "<absolute>";
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1293, 2236}}";
+			sepNavSelRange = "{4624, 23}";
+			sepNavVisRange = "{3951, 1121}";
+			sepNavWindowFrame = "{{38, 16}, {1288, 836}}";
+		};
+	};
+	65D00C831153BE1D006B9B9D /* ScreenRecorder.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1150, 689}}";
+			sepNavSelRange = "{146, 0}";
+			sepNavVisRange = "{0, 613}";
+		};
+	};
+	65D00C841153BE1D006B9B9D /* ScreenRecorder.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1286, 2314}}";
+			sepNavSelRange = "{3640, 0}";
+			sepNavVisRange = "{3529, 1829}";
+			sepNavWindowFrame = "{{15, 37}, {1288, 836}}";
+		};
+	};
+	65D00CDD1153CD8C006B9B9D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 65D00CDE1153CD8C006B9B9D /* ffmpeg.c */;
+		name = "ffmpeg.c: 4018";
+		rLen = 27;
+		rLoc = 148617;
+		rType = 0;
+		vrLen = 1335;
+		vrLoc = 148675;
+	};
+	65D00CDE1153CD8C006B9B9D /* ffmpeg.c */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.c;
+		name = ffmpeg.c;
+		path = "/Users/daniel/Desktop/ScreenRecording/ffmpeg-0.5.1/ffmpeg.c";
+		sourceTree = "<absolute>";
+	};
+	65D00CE01153CD8C006B9B9D /* cmdutils.c */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.c;
+		name = cmdutils.c;
+		path = "/Users/daniel/Desktop/ScreenRecording/ffmpeg-0.5.1/cmdutils.c";
+		sourceTree = "<absolute>";
+	};
+	65D00CF31153CED0006B9B9D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 65D00CE01153CD8C006B9B9D /* cmdutils.c */;
+		name = "cmdutils.c: 374";
+		rLen = 6;
+		rLoc = 12727;
+		rType = 0;
+		vrLen = 1881;
+		vrLoc = 12514;
+	};
+	65D00E9111540593006B9B9D /* movchop.m */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.objc;
+		name = movchop.m;
+		path = "/Users/daniel/Downloads/QTKitCommandLine/delete movie segment/movchop.m";
+		sourceTree = "<absolute>";
+	};
+	65D00EDB11540BBA006B9B9D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 65D00E9111540593006B9B9D /* movchop.m */;
+		name = "movchop.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 2186;
+		vrLoc = 0;
+	};
+	65D00EE511540F1E006B9B9D /* movie-capture.m */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.objc;
+		name = "movie-capture.m";
+		path = "/Users/daniel/Desktop/ScreenRecording/movie-capture/movie-capture.m";
+		sourceTree = "<absolute>";
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1293, 2236}}";
+			sepNavSelRange = "{4624, 23}";
+			sepNavVisRange = "{3951, 1121}";
+		};
+	};
+	65D01077115422CB006B9B9D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 65D01078115422CB006B9B9D /* QTKit.h */;
+		name = "QTKit.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 1098;
+		vrLoc = 0;
+	};
+	65D01078115422CB006B9B9D /* QTKit.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = QTKit.h;
+		path = /Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/QTKit.framework/Headers/QTKit.h;
+		sourceTree = "<absolute>";
+	};
+	65D010F8115519DB006B9B9D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 65D010F9115519DB006B9B9D /* QTCaptureMovieFileOutput.h */;
+		name = "QTCaptureMovieFileOutput.h: 19";
+		rLen = 19;
+		rLoc = 522;
+		rType = 0;
+		vrLen = 756;
+		vrLoc = 0;
+	};
+	65D010F9115519DB006B9B9D /* QTCaptureMovieFileOutput.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = QTCaptureMovieFileOutput.h;
+		path = /Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/QTKit.framework/Versions/A/Headers/QTCaptureMovieFileOutput.h;
+		sourceTree = "<absolute>";
+	};
+	65D010FB115519DB006B9B9D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 65D010FC115519DB006B9B9D /* QTCaptureFileOutput.h */;
+		name = "QTCaptureFileOutput.h: 28";
+		rLen = 15;
+		rLoc = 663;
+		rType = 0;
+		vrLen = 2762;
+		vrLoc = 0;
+	};
+	65D010FC115519DB006B9B9D /* QTCaptureFileOutput.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = QTCaptureFileOutput.h;
+		path = /Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/QTKit.framework/Headers/QTCaptureFileOutput.h;
+		sourceTree = "<absolute>";
+	};
+	65D01100115519DB006B9B9D /* QTCaptureSession.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = QTCaptureSession.h;
+		path = /Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/QTKit.framework/Versions/A/Headers/QTCaptureSession.h;
+		sourceTree = "<absolute>";
+	};
+	65D02E2D1152D623003A35C3 /* mac-screen-recorder */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 1;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = "mac-screen-recorder";
+		savedGlobals = {
+		};
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+		variableFormatDictionary = {
+		};
+	};
+	65D02E311152D642003A35C3 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	65D02E321152D642003A35C3 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	65D02E3A1152D687003A35C3 /* NSObjCRuntime.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = NSObjCRuntime.h;
+		path = /Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSObjCRuntime.h;
+		sourceTree = "<absolute>";
+	};
+	65D02E561152D739003A35C3 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 65D02E3A1152D687003A35C3 /* NSObjCRuntime.h */;
+		name = "NSObjCRuntime.h: 180";
+		rLen = 0;
+		rLoc = 6179;
+		rType = 0;
+		vrLen = 858;
+		vrLoc = 5945;
+	};
+	65D02E7D1152DD0E003A35C3 /* ffmpeg.c */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.c;
+		name = ffmpeg.c;
+		path = "/Users/daniel/Desktop/ScreenRecording/ffmpeg-0.5/ffmpeg.c";
+		sourceTree = "<absolute>";
+	};
+	65D02EA91152DD91003A35C3 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 65D02E7D1152DD0E003A35C3 /* ffmpeg.c */;
+		name = "ffmpeg.c: 3914";
+		rLen = 13;
+		rLoc = 141956;
+		rType = 0;
+		vrLen = 1149;
+		vrLoc = 141465;
+	};
+	8DD76FA90486AB0100D96B5E /* mac-screen-recorder */ = {
+		activeExec = 0;
+		executables = (
+			65D02E2D1152D623003A35C3 /* mac-screen-recorder */,
+		);
+	};
+}
