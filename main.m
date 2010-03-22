@@ -33,7 +33,7 @@ int main (int argc, char * argv[]) {
 											 selector:@selector(dataAvailable:)
 												 name:NSFileHandleDataAvailableNotification
 											   object:fileHandle];
-	
+
 	// Wait for user input on the background thread
 	[fileHandle waitForDataInBackgroundAndNotify];
 	
