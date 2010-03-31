@@ -73,7 +73,7 @@
 	}
 	else if(![dataString isEqualToString:@"quit\n"]) {
 		[mRecorder stopRecording];
-		NSLog(@"Unknown command!\n");
+		NSLog(@"Unknown command: '%s' \n",dataString);
 	}
 	
 	
@@ -92,7 +92,6 @@
 }
 
 - (void)dealloc {
-	[[NSNotificationCenter defaultCenter] removeObserver:self];
 	[mRecorder release];
 	[super dealloc];
 }

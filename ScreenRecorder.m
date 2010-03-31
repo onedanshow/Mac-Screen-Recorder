@@ -88,10 +88,13 @@
 			
 			if([mediaType isEqualToString:QTMediaTypeVideo]) {
 				//NSLog(@"Setting video compression.");
+				// QTCompressionOptionsLosslessAnimationVideo produces HUGE files
+				// according to this page, custom options are not available: http://developer.apple.com/mac/library/qa/qa2008/qa1586.html (see bottom)
+				// supposedly a way around it: http://osdir.com/ml/quicktime-api/2009-06/msg00122.html (older than the prior page)
 				compressionOptions = [QTCompressionOptions compressionOptionsWithIdentifier:@"QTCompressionOptionsSD480SizeH264Video"];
 			} else if ([mediaType isEqualToString:QTMediaTypeSound]) {
 				//NSLog(@"Setting audio compression.");
-				compressionOptions = [QTCompressionOptions compressionOptionsWithIdentifier:@"QTCompressionOptionsHighQualityAACAudio"];
+				compressionOptions = [QTCompressionOptions compressionOptionsWithIdentifier:@"QTCompressionOptionsVoiceQualityAACAudio"]; //QTCompressionOptionsHighQualityAACAudio"];
 			} else {
 				NSLog(@"Found an odd media connection type.");
 			}
@@ -99,9 +102,7 @@
 			
 			[mCaptureMovieFileOutput setCompressionOptions:compressionOptions forConnection:connection];
 		}
-		
-		// start capturing!
-		[mCaptureSession startRunning];
+
 		return self;
     } else {
 		[self release];
@@ -111,17 +112,22 @@
 
 -(void)startRecording:(NSString*)file
 {
+	// tell capture session to start reading inputs and sending to outputs
+	[mCaptureSession startRunning];	
+	// tell file output where to save to
 	[mCaptureMovieFileOutput recordToOutputFileURL:[NSURL fileURLWithPath:file]];
 }
 
 -(void)stopRecording
 {
+	// tell file output to stop recording
 	[mCaptureMovieFileOutput recordToOutputFileURL:nil];
+	// tell capture session to stop reading input and sending to outputs
+	[mCaptureSession stopRunning];
 }
 
 -(void)quit {
 	[self stopRecording];
-	[mCaptureSession stopRunning];
 	if([[mCaptureAudioDeviceInput device] isOpen])
 		[[mCaptureAudioDeviceInput device] close];
 }
@@ -130,7 +136,7 @@
 {	
 	NSLog(@"Finished recording!");
 	//NSLog(@"%@", outputFileURL);
-	[[NSWorkspace sharedWorkspace] openURL:outputFileURL];
+	// [[NSWorkspace sharedWorkspace] openURL:outputFileURL]; // opens file in Quicktime Player
 }
 
 -(void)dealloc

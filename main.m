@@ -37,10 +37,11 @@ int main (int argc, char * argv[]) {
 	// Wait for user input on the background thread
 	[fileHandle waitForDataInBackgroundAndNotify];
 	
-	// Tell the application to stay open
+	// Run the main event loop (application stays open)
 	[NSApp run];
 	
 	// Proper memory management on closing
+	[[NSNotificationCenter defaultCenter] removeObserver:console];	
 	[fileHandle closeFile];
 	[fileHandle release];
 	[console release];
