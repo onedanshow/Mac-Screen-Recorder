@@ -3,7 +3,6 @@
 //  mac-screen-recorder
 //
 //  Created by Daniel Dixon on 3/19/10.
-//  Copyright 2010 ReelFX, Inc. All rights reserved.
 //
 
 #import "ScreenRecorder.h"
@@ -91,17 +90,18 @@
 				// QTCompressionOptionsLosslessAnimationVideo produces HUGE files
 				// according to this page, custom options are not available: http://developer.apple.com/mac/library/qa/qa2008/qa1586.html (see bottom)
 				// supposedly a way around it: http://osdir.com/ml/quicktime-api/2009-06/msg00122.html (older than the prior page)
-				compressionOptions = [QTCompressionOptions compressionOptionsWithIdentifier:@"QTCompressionOptionsSD480SizeH264Video"];
+				compressionOptions = [QTCompressionOptions compressionOptionsWithIdentifier:@"QTCompressionOptionsSD480SizeH264Video"]; //QTCompressionOptionsLosslessAnimationVideo"];
 			} else if ([mediaType isEqualToString:QTMediaTypeSound]) {
 				//NSLog(@"Setting audio compression.");
 				compressionOptions = [QTCompressionOptions compressionOptionsWithIdentifier:@"QTCompressionOptionsVoiceQualityAACAudio"]; //QTCompressionOptionsHighQualityAACAudio"];
 			} else {
 				NSLog(@"Found an odd media connection type.");
 			}
-
 			
 			[mCaptureMovieFileOutput setCompressionOptions:compressionOptions forConnection:connection];
 		}
+		// unfortunately this increasing the file size dramatically for no reason:
+		//[mCaptureMovieFileOutput setMinimumVideoFrameInterval:(1.0/15.0)]; // consider denominator the framerate
 
 		return self;
     } else {
@@ -134,7 +134,7 @@
 
 -(void)captureOutput:(QTCaptureFileOutput *)captureOutput didFinishRecordingToOutputFileAtURL:(NSURL *)outputFileURL forConnections:(NSArray *)connections dueToError:(NSError *)error
 {	
-	NSLog(@"Finished recording!");
+	NSLog(@"QTCaptureFileOutput has stopped recording!");
 	//NSLog(@"%@", outputFileURL);
 	// [[NSWorkspace sharedWorkspace] openURL:outputFileURL]; // opens file in Quicktime Player
 }

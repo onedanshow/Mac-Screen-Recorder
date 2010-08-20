@@ -3,7 +3,6 @@
 //  mac-screen-recorder
 //
 //  Created by Daniel Dixon on 3/20/10.
-//  Copyright 2010 __MyCompanyName__. All rights reserved.
 //
 
 #import "Console.h"
@@ -16,12 +15,12 @@
 	BOOL captureAudio = YES;
 	
 	if (self = [super init]) {
-		NSLog(@"ReelFX Mac Screen Recorder");
+		NSLog(@"Mac Screen Recorder");
 		NSLog(@"requires Snow Leopard, Mac OS 10.6)");
 		
 		if (argc < 2 || argv[argc-1][0] == '-') {
 			// If an error occurs here, send a [self release] message and return nil.
-			NSLog(@"ERROR: Please specify a proper output file.");
+			NSLog(@"ERROR: Please specify a proper output file as the only parameter (ex: './mac-screen-recorder movie.mov')");
 			[self release];
 			return nil;
 		} else {
@@ -69,7 +68,11 @@
 		NSLog(@"Stopping recording...");
 	}
 	else if([dataString isEqualToString:@"help\n"]) {
-		NSLog(@"Usage (to be completed)");
+		NSLog(@"Usage (type one of the following commands):");
+		NSLog(@" start	- Start recording the screen");
+		NSLog(@" stop	- Stop recording the screen");
+		NSLog(@" help	- Print this information");
+		NSLog(@" quit	- Quit the screen recorder");
 	}
 	else if(![dataString isEqualToString:@"quit\n"]) {
 		[mRecorder stopRecording];

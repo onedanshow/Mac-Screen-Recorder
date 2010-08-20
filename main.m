@@ -1,12 +1,10 @@
 /*
 
- ReelFX Mac OSX 10.6 Screen Recorder
+ Mac OSX 10.6 Screen Recorder
 	by Daniel Dixon
 	assistance from Ben Spratling and Graham Booker
  
  A fun exercise in Objective-C during the month of March 2010.
- 
- For internal use only.
  
 */
 

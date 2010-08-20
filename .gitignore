@@ -1,2 +1,6 @@
 build/*
 *.1
+*.pbxuser
+*.mode1v3
+*~.nib
+*~.xib

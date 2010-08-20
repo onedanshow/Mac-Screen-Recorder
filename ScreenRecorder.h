@@ -3,9 +3,7 @@
 //  mac-screen-recorder
 //
 //  Created by Daniel Dixon on 3/19/10.
-//  Copyright 2010 ReelFX, Inc. All rights reserved.
 //
-//	This class is the main overhead when running the app.
 
 #import <Foundation/Foundation.h>
 #import <QTKit/QTKit.h>
